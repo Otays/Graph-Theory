@@ -46,7 +46,7 @@ class WeightedEdge
 	WeightedEdge(int setU, int setV, int setW) { u=setU; v=setV; w=setW; };
 	
 	// Print function for debug
-	void print_edge() const { cout << "<" << u << ", " << v << "> " 
+	void print_edge() const { cout << "verts<" << u << ", " << v << "> " 
                                    << "weight[ " << w << " ]";};
 	
 	// Accessors
@@ -172,10 +172,6 @@ void spanning_tree()
     create_graph( inputFile, G, vertexCount );
     cout << endl;
     
-    // Print Display Info
-    cout << "Weighted edges will be shown as follows," << endl
-         << "   index: ( unordered vertices ) [ weight ]" << endl << endl;
-         
     /** Print G **/
     cout << "For the given graph, G:" << endl;
     print_graph(G);
@@ -203,7 +199,7 @@ void spanning_tree()
     } while ( T.size() < vertexCount-1 );
     
     /** Print T **/
-    cout << "The spanning tree T of G:" 
+    cout << "The minimum spanning tree T of G:" 
          << endl;
     print_graph(T);
     
