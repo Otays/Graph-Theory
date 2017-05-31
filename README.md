@@ -10,10 +10,8 @@ The minimum spanning tree is found using Prim's algorithm.
 <img src="https://raw.githubusercontent.com/Otays/Graph-Theory/master/pics/pic1.png" />
 
 ## Required files: ##
- - makefile
- - sodoku.cpp
- - colorlogs.h
- - colorlogs.c
+ - graph_works.cpp
+ - input.txt (if using MST)
   
 
   
