@@ -6,6 +6,7 @@ This program can calculate the minimum spanning tree of a given graph, or
 <br />
 The minimum spanning tree is found using Prim's algorithm.
 <br />
+<br />
 
 <img src="https://raw.githubusercontent.com/Otays/Graph-Theory/master/pics/pic1.png" />
 
