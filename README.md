@@ -2,7 +2,6 @@
 
 This program can calculate the minimum spanning tree of a given graph, or
  generate all possible graphs up to a given number of vertices.  
-
 <br />
 The minimum spanning tree is found using Prim's algorithm.
 <br />
